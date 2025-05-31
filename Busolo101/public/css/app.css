@@ -1,0 +1,42 @@
+body {
+    background: #f5f7fb;
+    color: #222;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+.section-intro {
+    color: #5d5d5d;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-card {
+    border: none;
+    border-radius: 18px;
+    background: #fff;
+    transition: box-shadow 0.3s;
+}
+.project-card:hover {
+    box-shadow: 0 8px 32px rgba(24, 60, 116, 0.12);
+}
+.card-title a {
+    color: #325dff;
+    transition: color 0.2s;
+}
+.card-title a:hover {
+    color: #1e36a8;
+}
+.card-text {
+    font-size: 1rem;
+    color: #444;
+}
+a {
+    text-decoration: none;
+}
